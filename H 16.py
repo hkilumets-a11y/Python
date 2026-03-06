@@ -16,10 +16,8 @@ try:
         os.mkdir(today+"/"+str(i+1))
 except FileExistsError:
     print(f"Kataloog {today} juba eksisteerib.")
-
-
-
     kustuta = int(input(f"Millist kataloogi kustutad 1-{mitu}:"))
+    
     if os.path.isdir(f"{today}/{kustuta}"):
         os.mkdir(f"{today}/{kustuta}")
         print(f"Kustutatud kataloog puudub: {today}/{kustuta}")

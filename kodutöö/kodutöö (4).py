@@ -3,7 +3,6 @@ import turtle
 t = turtle.Turtle()
 t.speed(0)
 
-
 t.penup()
 t.goto(0, 0)
 t.setheading(0)
