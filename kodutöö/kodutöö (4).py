@@ -17,6 +17,6 @@ for _ in range(5):
         turtle.left(90)
     
 
-turtle.left(72)
+    turtle.left(72)
 
 turtle.done()
